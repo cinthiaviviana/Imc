@@ -11,20 +11,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proporcione el peso:"/>
+        android:text="Proporcione el peso:"
+        android:id="@+id/campo_peso"
+        />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+    android:id="@+id/campo_estatura"
+    />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proporcione la estatura:"/>
+
+        />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Proporcione la estatura:"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -34,12 +41,16 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Calcular"/>
+            android:text="Calcular"
+            android:id="@+id/_calcular"
+            />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Limpiar"/>
+            android:text="Limpiar"
+            android:id="@+id/_limpiar"
+            />
 
     </LinearLayout>
 
@@ -51,5 +62,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0.0"/>
+        android:text="0.0"
+        android:id="@+id/etiqueta_imc"
+        />
+
 </LinearLayout>
